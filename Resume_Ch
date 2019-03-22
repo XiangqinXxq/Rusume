@@ -1,0 +1,106 @@
+\documentclass[11pt,a4paper,noblankpage]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}
+
+% character encoding
+\usepackage{color}
+\definecolor{Blue}{rgb}{0.2,0.4,0.65}
+\usepackage{fontspec,xunicode}
+%\setmainfont{WenQuanYi Zen Hei}
+\setmainfont{Calibri}
+\usepackage[slantfont,boldfont]{xeCJK}
+\usepackage{xcolor}
+%\setCJKmainfont{WenQuanYi Zen Hei}
+\setCJKmainfont{SL-Simplified}
+
+% adjust the page margin
+\usepackage[scale=0.85]{geometry}
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{肖喜晴}
+\familyname{}
+%\address{}{江苏省淮安市淮阴区王营镇长江西路}
+\mobile{17826619612}
+\email{549237400@qq.com}
+\nopagenumbers{}
+
+% content
+\begin{document}
+\maketitle
+
+\section{基本信息}
+\cvcomputer {毕业院校：}{淮阴师范学院}{最高学历：}{本科}
+\cvcomputer {专业方向：}{计算机科学与技术（嵌入式培养）}{毕业时间：}{2019年6月}
+\cvcomputer {户籍地址：}{江苏省苏州市太仓市}{Github：}{github.com/XiangqinXxq}
+\cvline{}{}
+
+\section{IT技能}
+\cvline{-}{熟悉C++/PHP开发}
+\cvline{-}{熟悉SQL Server/Mysql数据库}
+\cvline{-}{熟悉/H5/Css3/Js}
+\cvline{-}{了解Linux开发环境和开发流程}
+\cvline{-}{了解MVC开发模式}
+\cvline{-}{了解Git/SVN基本使用}
+\cvline{}{}
+
+\section{实习经历}
+%\cvline{ }{\textcolor{Blue}{xxx} \hfill 201x年x日 - 201x年x日}
+%\cvline{-}{负责xxx}
+%\cvline{-}{负责xxx}
+%\cvline{}{}
+
+\cvline{ }{\textcolor{Blue}{软件工程师（实习），加百裕（昆山）电子有限公司} \hfill 2019年1月 - 至今}
+\cvline{-}{负责电签系统的表单设计与流程开发,以及相关开发文档的编写}
+\cvline{-}{负责SQL/Oracle数据库开发和维护}
+\cvline{}{}
+
+
+\section{项目经验}
+%\cvline{ }{\textcolor{Blue}{xxx} \hfill 201x年x月 - 201x年x月}
+%\cvline{项目简述}{xxx}
+%\cvline{项目职责}{xxx}
+%\cvline{        }{xxx}
+%\cvline{}{}
+%
+\cvline{ }{\textcolor{Blue}{博客网站开发} \hfill 2018年5月 - 2018年6月}
+\cvline{项目简述}{未完待续}
+\cvline{项目职责}{xx}
+\cvline{        }{xx}
+\cvline{}{}
+
+\cvline{ }{\textcolor{Blue}{外卖客户端（仿照美团）} \hfill 2018年3月 - 2018年4月}
+\cvline{项目简述}{未完待续}
+\cvline{项目职责}{xx}
+\cvline{        }{xx}
+\cvline{}{}
+
+\cvline{ }{\textcolor{Blue}{花瓣网开发与优化} \hfill 2018年1月 - 2018年2月}
+\cvline{项目简述}{未完待续}
+\cvline{项目职责}{xx}
+\cvline{        }{xx}
+\cvline{}{}
+
+\cvline{ }{\textcolor{Blue}{微信打飞机小游戏} \hfill 2017年6月 - 2018年6月}
+\cvline{项目简述}{未完待续}
+\cvline{项目职责}{xx}
+\cvline{        }{xx}
+\cvline{}{}
+
+\cvline{ }{\textcolor{Blue}{俄罗斯方块小游戏} \hfill 2016年1月 - 2016年1月}
+\cvline{项目简述}{未完待续}
+\cvline{项目职责}{xx}
+\cvline{        }{xx}
+\cvline{}{}
+
+\section{校内任职}
+\cvline{*}{计算机技术与科学学院学生会副主席兼外联部部长 \hfill 2017年5月-2018年10月}
+\cvline{*}{计算机科学与技术学院外联部副部长  \hfill 2016年5月-2017年5月}
+
+\section{奖励情况}
+\cvline{*}{淮阴师范学院三等奖学金 }
+\cvline{*}{淮阴师范学院优秀学生会干部 }
+\cvline{*}{淮阴师范学院暑期社会实践活动优秀个人}
+
+\end{document}
